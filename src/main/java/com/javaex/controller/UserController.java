@@ -58,7 +58,7 @@ public class UserController {
 
 	@RequestMapping("/add3")
 	public String add3(@ModelAttribute UserVo userVo) { //입력하지 않은 값에 대하여, null값이 안나오는 현상 알아봐야함.!!!!!!!
-		System.out.println(userVo.toString());
+		System.out.println(userVo.toString());			//defaultValue값 변수값마다 지정???
 		return ("index"); 
 	}
 
